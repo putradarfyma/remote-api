@@ -30,17 +30,15 @@ else:
     
 time.sleep(1)
 
-sensor_h=0 #handles list
-sensor_val=0 #Sensor value list
+sensor_h=0 
+sensor_val=0 
 
 
 vrep.simxStartSimulation(clientID,vrep.simx_opmode_oneshot_wait)
 
 errorCode,left_motor_handle=vrep.simxGetObjectHandle(clientID,"Pioneer_p3dx_leftMotor",vrep.simx_opmode_oneshot_wait) 
 errorCode,right_motor_handle=vrep.simxGetObjectHandle(clientID,"Pioneer_p3dx_rightMotor",vrep.simx_opmode_oneshot_wait)
-errorCode,sensor_h=vrep.simxGetObjectHandle(clientID,'Pioneer_p3dx_ultrasonicSensor1',vrep.simx_opmode_blocking) #blocking
-
-
+errorCode,sensor_h=vrep.simxGetObjectHandle(clientID,'Pioneer_p3dx_ultrasonicSensor1',vrep.simx_opmode_blocking) 
 errorCode,detectionState,detectedPoint,detectedObjectHandle,detectedSurfaceNormalVector=vrep.simxReadProximitySensor(clientID,sensor_h,vrep.simx_opmode_streaming)
  
     
@@ -51,12 +49,21 @@ while (1):
 
 #    for x in range (0,16):
     
+    
     sensor_val = np.linalg.norm(detectedPoint)
-    sensor_val = round(sensor_val,2)
-#    print ("print cuy",round(sensor_val,1))    
+    if sensor_val >= 1.0:
+        sensor_val = 0   
+        
+    sensor_val_round = round(sensor_val,2)
+            
     errorCode,detectionState,detectedPoint,detectedObjectHandle,detectedSurfaceNormalVector=vrep.simxReadProximitySensor(clientID,sensor_h,vrep.simx_opmode_buffer)
    
-    print (sensor_val,detectedPoint)    
+    
+    
+    
+    
+    
+    print(sensor_val_round)    
     
     
     errorCode=vrep.simxSetJointTargetVelocity(clientID,left_motor_handle,0, vrep.simx_opmode_streaming)
