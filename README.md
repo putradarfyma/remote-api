@@ -9,22 +9,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 You need to install
 
-```
-[v-rep](http://www.coppeliarobotics.com/) - Virtual robot experimental platform
-[anaconda] - Data Science Platform
-[vortex studio essenstials] - Vortex Physics Engine *optional
-```
+* [v-rep](http://www.coppeliarobotics.com/) - Virtual robot experimental platform
+* [anaconda](https://www.anaconda.com/) - Data Science Platform
+* [vortex studio essentials](https://www.cm-labs.com/vortex-studio/vortex-studio-essentials/) - Vortex Physics Engine
 
 ### Installing
 
 A step by step to get development env running
 
-Download v-rep and install on your machine
-Download anaconda platform and install on your machine
-
-```sh
-
-```
+* Download v-rep and install on your machine
+* Download anaconda platform and install on your machine
 
 ## Running the tests
 
@@ -36,15 +30,11 @@ Download anaconda platform and install on your machine
 
 System deployed on your local server, v-rep will automatically create its own local server by running v-rep scene.
 
-```sh
-
-```
-
 ## Built With
 
-*[v-rep](http://www.coppeliarobotics.com/) - Virtual robot experimental platform
-*[anaconda] - Data Science Platform
-*[vortex studio essenstials] - Vortex Physics Engine
+* [v-rep](http://www.coppeliarobotics.com/) - Virtual robot experimental platform
+* [anaconda](https://www.anaconda.com/) - Data Science Platform
+* [vortex studio essentials](https://www.cm-labs.com/vortex-studio/vortex-studio-essentials/) - Vortex Physics Engine
 
 ## Contributing
 
@@ -57,10 +47,8 @@ Use [SemVer](http://semver.org/) for versioning. For the versions available, see
 ## Authors
 
 * **Darfyma Putra** - *Initial work* - [putradarfyma](https://github.com/putradarfyma)
-* **Donni Richasdy** - *Initial work* - [richasdy](https://github.com/richasdy)
 
-
-See also the list of [contributors](https://github.com/putradarfyma) who participated in this project.
+See also the list of [contributors](https://github.com/putradarfyma/remote-api/graphs/contributors) who participated in this project.
 
 ## License
 
