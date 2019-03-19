@@ -19,7 +19,7 @@ A step by step to get development env running
 
 * Download V-REP and install on your machine
 * Download Anaconda platform and install on your machine
-* Download VOrtex Studio Essentials
+* Download Vortex Studio Essentials
 * Install package scikit-fuzzy
 ```sh
 conda install -c conda-forge scikit-fuzzy
@@ -37,9 +37,9 @@ System deployed on your local server, v-rep will automatically create its own lo
 
 ## Built With
 
-* [v-rep](http://www.coppeliarobotics.com/) - Virtual robot experimental platform
-* [anaconda](https://www.anaconda.com/) - Data Science Platform
-* [vortex studio essentials](https://www.cm-labs.com/vortex-studio/vortex-studio-essentials/) - Vortex Physics Engine
+* [V-REP](http://www.coppeliarobotics.com/) - Virtual robot experimental platform
+* [Anaconda](https://www.anaconda.com/) - Data Science Platform
+* [Vortex Studio Essentials](https://www.cm-labs.com/vortex-studio/vortex-studio-essentials/) - Vortex Physics Engine
 
 ## Contributing
 
