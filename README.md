@@ -9,16 +9,21 @@ These instructions will get you a copy of the project up and running on your loc
 
 You need to install
 
-* [v-rep](http://www.coppeliarobotics.com/) - Virtual robot experimental platform
-* [anaconda](https://www.anaconda.com/) - Data Science Platform
-* [vortex studio essentials](https://www.cm-labs.com/vortex-studio/vortex-studio-essentials/) - Vortex Physics Engine
+* [V-REP](http://www.coppeliarobotics.com/) - Virtual robot experimental platform
+* [Anaconda](https://www.anaconda.com/) - Data Science Platform
+* [Vortex Studio Essentials](https://www.cm-labs.com/vortex-studio/vortex-studio-essentials/) - Vortex Physics Engine - Optional
 
 ### Installing
 
 A step by step to get development env running
 
-* Download v-rep and install on your machine
-* Download anaconda platform and install on your machine
+* Download V-REP and install on your machine
+* Download Anaconda platform and install on your machine
+* Download VOrtex Studio Essentials
+* Install package scikit-fuzzy
+```sh
+conda install -c conda-forge scikit-fuzzy
+```
 
 ## Running the tests
 
