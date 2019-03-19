@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 You need to install
 
-* [V-REP](http://www.coppeliarobotics.com/) - Virtual robot experimental platform
+* [V-REP](http://www.coppeliarobotics.com/) - Virtual Robot Experimental Platform
 * [Anaconda](https://www.anaconda.com/) - Data Science Platform
 * [Vortex Studio Essentials](https://www.cm-labs.com/vortex-studio/vortex-studio-essentials/) - Vortex Physics Engine - Optional
 
@@ -37,7 +37,7 @@ System deployed on your local server, v-rep will automatically create its own lo
 
 ## Built With
 
-* [V-REP](http://www.coppeliarobotics.com/) - Virtual robot experimental platform
+* [V-REP](http://www.coppeliarobotics.com/) - Virtual Robot Experimental Platform
 * [Anaconda](https://www.anaconda.com/) - Data Science Platform
 * [Vortex Studio Essentials](https://www.cm-labs.com/vortex-studio/vortex-studio-essentials/) - Vortex Physics Engine
 
